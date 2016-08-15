@@ -1,0 +1,30 @@
+//
+//  ZZPCH.pch
+//  HMenu
+//
+//  Created by HMenu on 16/5/18.
+//  Copyright © 2016年 HMenu. All rights reserved.
+//
+
+#ifndef ZZPCH_pch
+#define ZZPCH_pch
+
+#import "UIImageView+WebCache.h"
+
+#import "MJRefresh.h" //刷新
+
+
+
+
+//屏幕宽高
+#define kScreenWidth   [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight   [UIScreen mainScreen].bounds.size.height
+
+//RGB
+#define ZMQColor(R, G, B) [UIColor colorWithRed:(R)/255.0 green:(G)/255.0 blue:(B)/255.0 alpha:1.0]
+
+// 随机色
+#define ZMQRandomColor ZMQColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
+
+#endif /* ZZPCH_pch */
